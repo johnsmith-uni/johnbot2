@@ -74,8 +74,7 @@ The original experiments used:
 - 24 fps video  
 - 15 min analysis window per trial  
 
-[![Demo Video](images/mov.png)](https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=3rnoa8uWQmc)
-(See Section 2.2–2.3 in the paper  [oai_citation:4‡ikegami.pdf](sediment://file_00000000697c72088fa7500d9f754807))
+[![Demo Video](images/mov.png)](https://www.youtube.com/watch?v=VIDEO_ID][(https://www.youtube.com/watch?v=3rnoa8uWQmc)] \
 
 
 	•	Hardware: CERN-OHL-P-2.0 → see LICENSE_HARDWARE
