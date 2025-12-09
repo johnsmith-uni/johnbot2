@@ -1,6 +1,6 @@
 # johnbot2: Minimal Light-Mediated Swarm Robot Platform
 _Swarm robot platform used in: “From Swarm to Individual: Emergent Individuality in Light-Mediated Robot Collectives” (2025)._
-
+![johnbot2 outline](images/johnbot2.png)
 This repository contains the complete hardware and software implementation for **johnbot2**, the vibration-driven phototactic robot platform used in the study:
 
 > **From Swarm to Individual: Emergent Individuality in Light-Mediated Robot Collectives**  
