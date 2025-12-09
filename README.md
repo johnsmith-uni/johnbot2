@@ -1,5 +1,5 @@
 # johnbot2: Minimal Light-Mediated Swarm Robot Platform
-_Swarm robot platform used in: “From Swarm to Individual: Emergent Individuality in Light-Mediated Robot Collectives” (2025). \
+Swarm robot platform used in: “From Swarm to Individual: Emergent Individuality in Light-Mediated Robot Collectives” (2025). \
 ![johnbot2 outline](images/johnbot2.png)\
 This repository contains the complete hardware and software implementation for **johnbot2**, the vibration-driven phototactic robot platform used in the study:
 
@@ -62,7 +62,7 @@ _(Mapping derived from Appendix A and Section 2.1  [oai_citation:3‡ikegami.pdf
 
 ---
 
-## Experiments & Reproduction
+## Example Experiments & Reproduction
 
 The original experiments used:
 
@@ -74,6 +74,7 @@ The original experiments used:
 - 24 fps video  
 - 15 min analysis window per trial  
 
+[![Demo Video](images/mov.png)](https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=3rnoa8uWQmc)
 (See Section 2.2–2.3 in the paper  [oai_citation:4‡ikegami.pdf](sediment://file_00000000697c72088fa7500d9f754807))
 
 
