@@ -20,9 +20,6 @@ values at 24 fps to CSV for later analysis.
 - `requirements.txt`  
   Python dependencies for the host controller.
 
-- (optional) `environment.yml`  
-  Conda environment description, if you choose to provide one.
-
 Log files are written to:
 
 - `robot_logs/` (created automatically)
