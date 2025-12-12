@@ -14,7 +14,7 @@ values at 24 fps to CSV for later analysis.
 
 ## Files
 
-- `johnbot2_controller.py`  
+- `johnbot2.py`  
   Main host controller script (OSC server + client, control law, logging).
 
 - `requirements.txt`  
@@ -31,33 +31,30 @@ Log files are written to:
 
 ## Relation to the Paper
 
-The controller implements the phototaxis control law described in the Methods section
-of the paper (Section 2.1 and Appendix A).  [oai_citation:1‡ikegami.pdf](sediment://file_00000000697c72088fa7500d9f754807)  
+The controller implements the phototaxis control law.  
+For left and right sensor readings $(S_L, S_R)$, the host computes:
 
-For left and right sensor readings \(S_L, S_R\), the host computes:
-
-\[
+$$
 \hat r_L = \frac{S_R + 1}{S_L + S_R + 2}, \qquad
 \hat r_R = \frac{S_L + 1}{S_L + S_R + 2}
-\]
+$$
 
-A sharp sigmoid
+A sharp sigmoid:
 
-\[
+$$
 \sigma_\alpha(x) = \frac{x^\alpha}{x^\alpha + (1-x)^\alpha}
-\]
+$$
 
-with \(\alpha = 8\) is applied, and motor commands \((M_L, M_R)\) are:
+with $(\alpha = 8)$, and motor commands $(M_L, M_R)$ are defined as:
 
-\[
-M_L = M_{\max} \, \sigma_\alpha(\hat r_L), \qquad
-M_R = M_{\max} \, \sigma_\alpha(\hat r_R),
-\]
+$$
+M_L = M_{\max}\,\sigma_\alpha(\hat r_L), \qquad
+M_R = M_{\max}\,\sigma_\alpha(\hat r_R)
+$$
 
-with \(M_{\max} = 200\).
+with $(M_{\max} = 200)$.
 
-The Python implementation is a direct translation of these equations.
-
+The Python implementation directly follows these equations.
 ---
 
 ## Features
