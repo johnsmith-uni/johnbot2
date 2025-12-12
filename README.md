@@ -21,8 +21,6 @@ johnbot2 is a **5 cm circular PCB robot** driven by **two vibration motors**, eq
 
 Robots demonstrate **phototaxis**, **light-mediated interactions**, and **emergent individuality** in a collective environment.
 
-_(See Fig. 1 in the paper for an overview of the hardware layout  [oai_citation:1‡ikegami.pdf](sediment://file_00000000697c72088fa7500d9f754807))_
-
 ---
 
 ## Repository Structure
