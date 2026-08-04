@@ -21,6 +21,7 @@ johnbot2 is a **5 cm circular PCB robot** driven by **two vibration motors**, eq
 
 Robots demonstrate **phototaxis**, **light-mediated interactions**, and **emergent individuality** in a collective environment.
 
+Although Kilobot is often considered inexpensive, assembling many units still incurs substantial cost, whereas our platform uses general-purpose components and a simple PCB, allowing low-cost, reproducible construction anywhere.
 ---
 
 ## Repository Structure
